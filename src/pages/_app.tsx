@@ -11,7 +11,7 @@ const alchemyId = process.env.ALCHEMY_ID;
 
 const client = createClient(
   getDefaultClient({
-    appName: "DexSync Exchange",
+    appName: "My Project",
     alchemyId,
     chains: SUPPORTED_NETWORKS,
   })
