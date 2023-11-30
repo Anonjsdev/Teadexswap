@@ -9,7 +9,7 @@ const Index = () => {
     <div className="z-30 flex flex-col">
       <Setting />
       <div className="flex  max-w-[700px] md:w-[700px]  flex-col items-center justify-center md:p-[20px]">
-        <div className="border rounded-lg p-11  flex md:max-w-[500px] w-full bg-gray-custom-100  p-[35px] border border-gray-custom-200">
+        <div className="border rounded-lg p-11  flex md:max-w-[500px] w-full bg-gray-custom-100  p-[30px] border border-gray-custom-200">
           <AggregationChoices />
         </div>
 
