@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       colors: {
         "gray-custom": {
-          100: "#27262c",
+          100: "#030404",
           200: "#1d1d22",
           300: "#1d1d22",
           400: "#1d1d22",
