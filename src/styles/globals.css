@@ -5,7 +5,7 @@
 @import url(fonts.css);
 
 html {
-  background-color: #ffffff;
+  background-color: #111315;
   position: relative;
   color: white;
   overflow-y: scroll;
@@ -13,7 +13,7 @@ html {
 }
 
 .toast-message {
-  background: #ffffff;
+  background: #1A1D1F;
 }
 
 
@@ -132,7 +132,7 @@ input[type="checkbox"]:checked::before {
   content: "✓";
   display: block;
   color: rgb(0, 0, 0);
-  background-color: #0969da;
+  background-color: #6F3CE4;
   text-align: center;
   line-height: 20px;
   width: 20px;

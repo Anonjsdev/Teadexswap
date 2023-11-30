@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Suspense fallback={null}>
         <Head>
-          <title>TEST PROJECT</title>
+          <title>DexSync Exchange</title>
           <meta name="description" content="A meta aggregator" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.png" />
@@ -35,9 +35,9 @@ export default function App({ Component, pageProps }: AppProps) {
               "--ck-overlay-background": "rgba(0, 0, 0, 0.5)",
               "--ck-body-background": "#1A1D1F",
               "--ck-overlay-backdrop-filter": "blur(10px)",
-              "--ck-body-background-secondary": "#0969da",
-              "--ck-body-background-secondary-hover-background": "#0969da",
-              "--ck-body-background-tertiary": "#0969da",
+              "--ck-body-background-secondary": "#111315",
+              "--ck-body-background-secondary-hover-background": "#111315",
+              "--ck-body-background-tertiary": "#111315",
             }}
             options={{ initialChainId: 0 }}
           >
