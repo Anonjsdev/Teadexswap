@@ -130,7 +130,7 @@ const SelectNetwork = () => {
             {networks.map((network) => (
               <button
                 key={network.value}
-                className="w-full border-b border-white/5 px-[16px] py-[12px] text-left duration-300 hover:bg-[#1D1F21]  focus:bg-gray-custom-200 focus:text-black"
+                className="w-full border-b border-white/5 px-[16px] py-[12px] text-left duration-300 hover:bg-[#131528]  focus:bg-gray-custom-200 focus:text-black"
                 type="button"
                 onClick={() => handleNetworkChange(network)}
               >
