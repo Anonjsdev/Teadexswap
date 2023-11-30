@@ -98,7 +98,7 @@ const SelectNetwork = () => {
       </div>
       <div className="relative font-general-sans" ref={dropdownRef}>
         <button
-          className=" flex w-full appearance-none justify-between  border border-gray-custom-200 bg-gray-custom-300 px-[16px] py-[12px]"
+          className="border rounded-lg p-8 flex w-full appearance-none justify-between  border border-gray-custom-200 bg-gray-custom-300 px-[16px] py-[12px]"
           type="button"
           onClick={toggleDropdown}
         >
@@ -126,7 +126,7 @@ const SelectNetwork = () => {
           </span>
         </button>
         {isDropdownOpen && (
-          <div className="network-box-shadow absolute top-full z-10 mt-[3px] w-full  overflow-hidden border border-gray-custom-200 bg-gray-custom-100 ">
+          <div className="border rounded-lg p-5 network-box-shadow absolute top-full z-10 mt-[3px] w-full  overflow-hidden border border-gray-custom-200 bg-gray-custom-100 ">
             {networks.map((network) => (
               <button
                 key={network.value}

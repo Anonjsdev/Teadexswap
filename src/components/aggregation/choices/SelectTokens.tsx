@@ -311,7 +311,7 @@ const SelectToken: FC<SelectTokenProps> = ({
     <div className="w-full font-general-sans">
       <button
         type="button"
-        className="align-center flex w-full cursor-pointer border border-gray-custom-200 bg-gray-custom-300 px-[16px] py-[12px]"
+        className="border rounded-lg p-8 align-center flex w-full cursor-pointer border border-gray-custom-200 bg-gray-custom-300 px-[16px] py-[12px]"
         onClick={() => toggle()}
       >
         {selectedToken?.logoURI && (
