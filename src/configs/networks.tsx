@@ -1,9 +1,9 @@
 import {
+  bsc,
   mainnet,
   polygon,
   optimism,
   arbitrum,
-  bsc,
   avalanche,
   fantom,
   celo,
@@ -18,11 +18,11 @@ export interface INetworkConfig {
 }
 
 export const SUPPORTED_NETWORKS = [
+  bsc,
   mainnet,
   polygon,
   arbitrum,
   optimism,
-  bsc,
   avalanche,
   fantom,
   celo,
@@ -41,11 +41,11 @@ export const NetworksConfig: INetworkConfig[] = SUPPORTED_NETWORKS.map(
 );
 
 export const CONFIRMATION_WAIT_BLOCKS: { [chainId: number]: number } = {
+  56: 1,
   1: 1,
   137: 2,
   42161: 1,
   10: 1,
-  56: 1,
   43114: 1,
   250: 1,
   42220: 1,
