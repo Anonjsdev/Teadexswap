@@ -30,10 +30,10 @@ const Navbar = () => {
                   return (
                     <button
                       onClick={show}
-                      className={`flex items-center  border text-[14px]  duration-300 hover:bg-white/5 md:text-[16px] ${
+                      className={`border rounded-lg p-8 flex items-center  border text-[14px]  duration-300 hover:bg-white/50 md:text-[16px] ${
                         !isConnected
-                          ? " border border-gray-custom-200"
-                          : "  border-gray-custom-200 bg-transparent"
+                          ? " border border-purple-custom-300"
+                          : "  border-gray-custom-100 bg-gray-custom-100"
                       }  px-[12px] py-[8px] md:px-[16px] md:py-[8px]`}
                     >
                       {address && (
