@@ -22,7 +22,7 @@ const SwapButton = () => {
   }
 
   const buttonBaseClasses =
-    "py-[16px] text-center text-[16px] text-white font-medium  font-general-sans border border-[#6F3CE4]";
+    "border rounded-lg p-8 py-[16px] text-center text-[16px] text-white font-medium  font-general-sans border border-[#00d084]";
 
   const [buttonStatus, setButtonStatus] = useState<ButtonStatus>(
     ButtonStatus.ALL_OK
@@ -129,7 +129,7 @@ const SwapButton = () => {
               resetToken1();
               switchNetwork?.(selectedNetworkId);
             }}
-            className={"bg-purple-primary" + " " + buttonBaseClasses}
+            className={"border rounded-lg p-8 bg-purple-primary" + " " + buttonBaseClasses}
           >
             {ButtonStatus.SWITCH_NETWORK}
           </button>

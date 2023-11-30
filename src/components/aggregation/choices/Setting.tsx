@@ -13,11 +13,7 @@ const Setting = () => {
 
   const [unselectAggregators] = useLocalStorage("unselectAggregators", []);
   const aggregators: AggregatorName[] = [
-    "MATCHA",
-    "1INCH",
-    "PARASWAP",
-    "KYBERSWAP",
-    "OPENOCEAN",
+    
   ];
   const [unselectAggregatorsArray, setUnselectAggregatorsArray] = useState<any>(
     unselectAggregators || [null]
