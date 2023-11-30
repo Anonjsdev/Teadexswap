@@ -12,15 +12,15 @@ module.exports = {
     extend: {
       colors: {
         "gray-custom": {
-          100: "#1A1D1F",
-          200: "#272B30",
-          300: "#111315",
-          400: "#17191B",
+          100: "#111315",
+          200: "#272b30",
+          300: "#111111",
+          400: "#131618",
         },
         purple: {
-          primary: "#6F3CE4",
-          secondary: "#6F3CE4",
-          light: "#6F3CE4",
+          primary: "#00d084",
+          secondary: "#00d084",
+          light: "#1fc7d4",
         },
       },
       fontFamily: {
