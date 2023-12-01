@@ -336,8 +336,8 @@ const SelectToken: FC<SelectTokenProps> = ({
       </button>
 
       <Modal
-        title={"Ever X Protocol"}
-        className="relative flex h-[672px] w-[464px] flex-col border  border-gray-custom-200 bg-gray-custom-100"
+        title={""}
+        className="border rounded-lg p-8 relative flex h-[672px] w-[464px] flex-col border  border-gray-custom-200 bg-gray-custom-100"
         isShowing={isShowing}
         hide={hideModal}
       >
