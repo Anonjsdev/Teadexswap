@@ -328,7 +328,7 @@ const SelectToken: FC<SelectTokenProps> = ({
           />
         )}
         <div className="flex w-full items-center justify-between">
-          <span>{selectedToken ? selectedToken.symbol : "Select Token"}</span>{" "}
+          <span>{selectedToken ? selectedToken.symbol : "Select "}</span>{" "}
           <span>
             <ChevronDown color="#C3C3C3" />
           </span>
@@ -336,16 +336,16 @@ const SelectToken: FC<SelectTokenProps> = ({
       </button>
 
       <Modal
-        title={""}
+        title={"Ever X Protocol"}
         className="relative flex h-[672px] w-[464px] flex-col border  border-gray-custom-200 bg-gray-custom-100"
         isShowing={isShowing}
         hide={hideModal}
       >
         <div className="px-auto   sticky z-20 mx-auto w-full">
-          <p className="mb-[8px]">Select Token</p>
+          <p className="mb-[8px]">Search Token</p>
           <Input
             placeholder=" Search name or paste address"
-            className="w-full  border-gray-custom-200 bg-gray-custom-300 px-[16px] py-[12px] font-medium  opacity-60  focus:outline-none"
+            className="border rounded-lg p-8 w-full  border-gray-custom-200 bg-gray-custom-300 px-[16px] py-[12px] font-medium  opacity-60  focus:outline-none"
             onKeyUp={(e: any) => {
               let { value } = e.target;
               if (value.length > 2) {
