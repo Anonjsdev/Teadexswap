@@ -22,7 +22,7 @@ const SwapButton = () => {
   }
 
   const buttonBaseClasses =
-    "border rounded-full p-8 py-[16px] text-center text-[16px] text-white font-medium  font-general-sans border border-[#00d084]";
+    "border rounded-full p-8 py-[16px] text-center text-[16px] text-white font-medium  font-general-sans border border-[#1fc7d4]";
 
   const [buttonStatus, setButtonStatus] = useState<ButtonStatus>(
     ButtonStatus.ALL_OK
