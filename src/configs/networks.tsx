@@ -19,15 +19,7 @@ export interface INetworkConfig {
 
 export const SUPPORTED_NETWORKS = [
   bsc,
-  mainnet,
-  polygon,
-  arbitrum,
-  optimism,
-  avalanche,
-  fantom,
-  celo,
-  gnosis,
-  zkSync
+ 
 ];
 
 export const NetworksConfig: INetworkConfig[] = SUPPORTED_NETWORKS.map(
