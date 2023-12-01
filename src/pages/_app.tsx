@@ -11,7 +11,7 @@ const alchemyId = process.env.ALCHEMY_ID;
 
 const client = createClient(
   getDefaultClient({
-    appName: "My Project",
+    appName: "MY PROJECT",
     alchemyId,
     chains: SUPPORTED_NETWORKS,
   })
@@ -33,11 +33,11 @@ export default function App({ Component, pageProps }: AppProps) {
             customTheme={{
               "--ck-border-radius": 1,
               "--ck-overlay-background": "rgba(0, 0, 0, 0.5)",
-              "--ck-body-background": "#1A1D1F",
-              "--ck-overlay-backdrop-filter": "blur(10px)",
-              "--ck-body-background-secondary": "#111315",
-              "--ck-body-background-secondary-hover-background": "#111315",
-              "--ck-body-background-tertiary": "#111315",
+              "--ck-body-background": "#0a0c19",
+              "--ck-overlay-backdrop-filter": "blur(100px)",
+              "--ck-body-background-secondary": "#0a0c19",
+              "--ck-body-background-secondary-hover-background": "#131528",
+              "--ck-body-background-tertiary": "#131528",
             }}
             options={{ initialChainId: 0 }}
           >
