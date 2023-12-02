@@ -30,9 +30,9 @@ const Navbar = () => {
                   return (
                     <button
                       onClick={show}
-                      className={`border rounded-lg p-8 flex items-center  border text-[14px]  duration-300 hover:bg-white/50 md:text-[16px] ${
+                      class={`bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 border rounded-lg flex items-center  border text-[14px]  duration-300 hover:bg-white/50 md:text-[16px] ${
                         !isConnected
-                          ? " border border-purple-custom-300"
+                          ? " border border-transparent"
                           : "  border-gray-custom-300 bg-gray-custom-300"
                       }  px-[12px] py-[8px] md:px-[16px] md:py-[8px]`}
                     >
