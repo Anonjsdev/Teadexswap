@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="relative z-20 flex  w-full items-center border-b border-gray-custom-100 bg-gray-custom-100/100 md:px-[16px] px-[10px] py-[12px] text-[16px] font-medium ">
         <div className="flex w-full items-center justify-between">
           <div onClick={() => Router.push("/")}>
-            <img src="/dexsynclogo.svg" className="max-h-[50px] -mb-[5px]" alt="" />
+            <img src="/favicon.png" className="max-h-[50px] -mb-[5px]" alt="" />
           </div>
           <div className="flex space-x-[8px]">
             <div>
