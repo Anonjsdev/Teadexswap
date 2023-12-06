@@ -12,10 +12,10 @@ module.exports = {
     extend: {
       colors: {
         "gray-custom": {
-          100: "#21252d",
-          200: "#181b21",
-          300: "#181b21",
-          400: "#181b21",
+          100: "#ffffff",
+          200: "#ecf1f7",
+          300: "#ecf1f7",
+          400: "#ecf1f7",
         },
         purple: {
           primary: "#1fc7d4",
