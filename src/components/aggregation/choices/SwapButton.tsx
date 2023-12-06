@@ -22,7 +22,7 @@ const SwapButton = () => {
   }
 
   const buttonBaseClasses =
-    "bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 border rounded-md p-8 py-[16px] text-center text-[16px] text-white font-medium  font-general-sans border border-[transparent]";
+    "bg-sky-500 hover:bg-sky-700-500 hover:to-blue-500 border rounded-[20px] p-8 py-[16px] text-center text-[16px] text-white font-medium  font-general-sans border border-[transparent]";
 
   const [buttonStatus, setButtonStatus] = useState<ButtonStatus>(
     ButtonStatus.ALL_OK
