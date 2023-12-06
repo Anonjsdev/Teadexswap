@@ -11,7 +11,7 @@ const alchemyId = process.env.ALCHEMY_ID;
 
 const client = createClient(
   getDefaultClient({
-    appName: "MY PROJECT",
+    appName: "Sphere Protocol",
     alchemyId,
     chains: SUPPORTED_NETWORKS,
   })
@@ -22,8 +22,8 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Suspense fallback={null}>
         <Head>
-          <title>My Project</title>
-          <meta name="description" content="A meta aggregator" />
+          <title>Sphere Protocol</title>
+          <meta name="description" content="The Gateway for Decentralize Finance" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.png" />
         </Head>
