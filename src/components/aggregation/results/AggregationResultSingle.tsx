@@ -50,7 +50,7 @@ const AggregationResult: FC<AggregationResultProps> = ({
     >
       <div className="flex font-normal">
         <div className="space-x-[4px]">
-          <span className=" font-medium text-white">
+          <span className=" font-medium text-gray">
             {parseFloat(toTokenAmount.toFixed(6))}
           </span>
           <span className="text-[#6F767E]">{toTokenSymbol}</span>
