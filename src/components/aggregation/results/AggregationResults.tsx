@@ -64,7 +64,7 @@ const AggregationResults = () => {
           <div className=" "></div>
           <div className=" space-y-[8px] text-center">
             <p className="font-general-sans text-[20px]  font-medium opacity-70">
-              Best meta aggregator ever built
+              Sphere Protocol
             </p>
           </div>
         </div>
