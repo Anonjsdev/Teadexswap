@@ -13,7 +13,7 @@ const SwapDetails = () => {
   };
 
   return selectedQuote && selectedQuote?.toTokenAmount > 0 ? (
-    <section className="space-y-[8px]  bg-[#131528]/80 p-[12px]  text-[12px] text-[#6F767E] ">
+    <section className="space-y-[8px]  bg-[#ecf1f7]/80 p-[12px]  text-[12px] text-[#424453] ">
       <div className="flex">
         <h1>Expected Output</h1>
         <h1 className="ml-auto">
