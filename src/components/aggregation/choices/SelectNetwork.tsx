@@ -126,7 +126,7 @@ const SelectNetwork = () => {
           </span>
         </button>
         {isDropdownOpen && (
-          <div className="border rounded-lg p-5 network-box-shadow absolute top-full z-10 mt-[3px] w-full  overflow-hidden border border-gray-custom-200 bg-gray-custom-100 ">
+          <div className="border rounded-lg p-5  w-full  overflow-hidden border border-gray-custom-200 bg-gray-custom-100 ">
             {networks.map((network) => (
               <button
                 key={network.value}
