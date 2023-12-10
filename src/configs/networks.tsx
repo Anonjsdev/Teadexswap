@@ -19,6 +19,7 @@ export interface INetworkConfig {
 
 export const SUPPORTED_NETWORKS = [
   bsc,
+  mainnet,
  
 ];
 
