@@ -5,9 +5,9 @@
 @import url(fonts.css);
 
 html {
-  background-color: #ecf1f7;
+  background-color: #000000;
   position: relative;
-  color: #252c44;
+  color: #000000;
   overflow-y: scroll;
 
 }
