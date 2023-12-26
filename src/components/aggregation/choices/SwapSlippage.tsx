@@ -18,7 +18,7 @@ const PredefinedOption: FC<PredefinedOptionProps> = ({
     <div>
       <div
         className={`rounded-lg p-1 text  bg-gray-custom-200 px-[16px] py-[12px] text-center shadow ${
-          isSelected ? "border-purple-light border" : ""
+          isSelected ? "border-[#171717] border" : ""
         }`}
         onClick={onClick}
       >
@@ -73,8 +73,8 @@ const SwapSlippage = () => {
         </div>
 
         <div
-          className={`text w-full cursor-pointer  bg-gray-custom-200 px-[16px] py-[12px] text-center  ${
-            isCustomSelected ? "border-purple-light border" : ""
+          className={`text w-full cursor-pointer rounded-lg  bg-gray-custom-200 px-[16px] py-[12px] text-center  ${
+            isCustomSelected ? "border-[#171717] border" : ""
           }`}
           onClick={() => {
             setSelectedButton(null);
