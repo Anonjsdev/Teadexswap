@@ -9,11 +9,11 @@ const Index = () => {
     <div className="z-30 flex flex-col">
       <Setting />
       <div className="flex  max-w-[700px] md:w-[700px]  flex-col items-center justify-center md:p-[20px]">
-        <div className="border rounded-[20px] p-11  flex md:max-w-[500px] w-full bg-gray-custom-100  p-px] border border-gray-custom-200">
+        <div className="border rounded-[20px] p-11  flex md:max-w-[550px] w-full bg-gray-custom-100  p-px] border border-gray-custom-200">
           <AggregationChoices />
         </div>
 
-        <div className="border rounded-[20px] p-8  mt-[24px] flex w-full max-w-[500px]  bg-gray-custom-100 p-[20px] border border-gray-custom-200">
+        <div className="border rounded-[20px] p-8  mt-[24px] flex w-full max-w-[550px]  bg-gray-custom-100 p-[20px] border border-gray-custom-200">
           <AggregationResults />
         </div>
       </div>
