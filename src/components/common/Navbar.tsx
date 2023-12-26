@@ -9,7 +9,7 @@ import Modal from "./Modal";
 const Navbar = () => {
   return (
     <>
-      <div className="relative z-20 flex  w-full items-center border-b border-gray-custom-100 bg-gray-custom-100/100 md:px-[16px] px-[10px] py-[12px] text-[16px] font-medium ">
+      <div className="relative z-20 flex  w-full items-center border-#ffffff bg-#000000 md:px-[16px] px-[10px] py-[12px] text-[16px] font-medium ">
         <div className="flex w-full items-center justify-between">
           <div onClick={() => Router.push("/")}>
             <img src="/logo.png" className="max-h-[35px] -mb-[5px]" alt="" />
@@ -30,7 +30,7 @@ const Navbar = () => {
                   return (
                     <button
                       onClick={show}
-                      className={`bg-sky-500 hover:bg-sky-700-500 hover:to-blue-500 border rounded-full flex items-center  border text-[14px]  duration-300 hover:bg-white/50 md:text-[16px] ${
+                      className={`bg-[#ffffff] hover:bg-[#f9fafa] hover:bg-[#e3e6e8] border rounded-full flex items-center  border text-[14px]  duration-300 hover:/50 md:text-[16px] ${
                         !isConnected
                           ? " border border-transparent"
                           : "  border-gray-custom-300 bg-gray-custom-300"
