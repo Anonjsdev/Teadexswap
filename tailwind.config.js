@@ -13,14 +13,14 @@ module.exports = {
       colors: {
         "gray-custom": {
           100: "#ffffff",
-          200: "#ecf1f7",
-          300: "#ecf1f7",
-          400: "#ecf1f7",
+          200: "#f6f8fa",
+          300: "#f6f8fa",
+          400: "#f6f8fa",
         },
         purple: {
-          primary: "#1fc7d4",
-          secondary: "#1fc7d4",
-          light: "#1fc7d4",
+          primary: "#ffffff",
+          secondary: "#ffffff",
+          light: "#ffffff",
         },
       },
       fontFamily: {
@@ -37,7 +37,7 @@ module.exports = {
         20: "20px",
       },
       fontSize: {
-        16: "16px",
+        16: "160px",
       },
       fontSize: {
         "095": "0.6rem",
