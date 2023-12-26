@@ -22,7 +22,7 @@ const SwapButton = () => {
   }
 
   const buttonBaseClasses =
-    "bg-sky-500 hover:bg-sky-700-500 hover:to-blue-500 border rounded-[20px] p-8 py-[16px] text-center text-[16px] text-white font-medium  font-general-sans border border-[transparent]";
+    "bg-bg-[#171717] hover:bg-sky-700-500 hover:to-blue-500 border rounded-[20px] p-8 py-[16px] text-center text-[16px] text-white font-medium  font-general-sans border border-[transparent]";
 
   const [buttonStatus, setButtonStatus] = useState<ButtonStatus>(
     ButtonStatus.ALL_OK
@@ -109,7 +109,7 @@ const SwapButton = () => {
           {({ isConnected, isConnecting, show, hide, address, ensName }) => {
             return (
               <button
-                className={"bg-purple-primary" + " " + buttonBaseClasses}
+                className={"bg-[#171717]" + " " + buttonBaseClasses}
                 onClick={show}
               >
                 {ButtonStatus.WALLET_NOT_CONNECTED}
@@ -129,7 +129,7 @@ const SwapButton = () => {
               resetToken1();
               switchNetwork?.(selectedNetworkId);
             }}
-            className={"border rounded-lg p-8 bg-purple-primary" + " " + buttonBaseClasses}
+            className={"border rounded-lg p-8 bg-[#171717]" + " " + buttonBaseClasses}
           >
             {ButtonStatus.SWITCH_NETWORK}
           </button>
@@ -141,7 +141,7 @@ const SwapButton = () => {
             <button
               disabled={isApproveLoading}
               onClick={approve}
-              className={"w-1/2 bg-purple-primary" + " " + buttonBaseClasses}
+              className={"w-1/2 bg-[#171717]" + " " + buttonBaseClasses}
             >
               {isApproveLoading ? (
                 <>
@@ -162,7 +162,7 @@ const SwapButton = () => {
             <button
               onClick={approveInfinite}
               className={
-                "w-1/2 bg-purple-primary  text-sm" + " " + buttonBaseClasses
+                "w-1/2 bg-[#171717]  text-sm" + " " + buttonBaseClasses
               }
             >
               {isApproveInfiniteLoading ? (
@@ -187,7 +187,7 @@ const SwapButton = () => {
         return (
           <button
             className={
-              "cursor-not-allowed bg-purple-secondary" + " " + buttonBaseClasses
+              "cursor-not-allowed bg-[#171717]" + " " + buttonBaseClasses
             }
           >
             {ButtonStatus.INSUFFICIENT_BALANCE}
@@ -198,7 +198,7 @@ const SwapButton = () => {
         return (
           <button
             className={
-              "cursor-not-allowed bg-purple-secondary" + " " + buttonBaseClasses
+              "cursor-not-allowed bg-[#171717]" + " " + buttonBaseClasses
             }
           >
             {ButtonStatus.NO_AMOUNT}
@@ -209,7 +209,7 @@ const SwapButton = () => {
         return (
           <button
             className={
-              "cursor-not-allowed bg-purple-secondary" + " " + buttonBaseClasses
+              "cursor-not-allowed bg-[#171717]" + " " + buttonBaseClasses
             }
           >
             {ButtonStatus.TOKENS_NOT_SELECTED}
@@ -221,7 +221,7 @@ const SwapButton = () => {
           <button
             disabled
             className={
-              "cursor-not-allowed bg-purple-secondary" + " " + buttonBaseClasses
+              "cursor-not-allowed bg-[#171717]" + " " + buttonBaseClasses
             }
           >
             <div className="flex w-full items-center justify-center space-x-2">
@@ -244,7 +244,7 @@ const SwapButton = () => {
             onClick={() => {
               swap();
             }}
-            className={"bg-purple-primary" + " " + buttonBaseClasses}
+            className={"bg-[#171717]" + " " + buttonBaseClasses}
           >
             {isLoading ? (
               <>
