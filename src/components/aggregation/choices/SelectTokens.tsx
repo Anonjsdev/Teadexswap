@@ -456,7 +456,7 @@ const SelectToken: FC<SelectTokenProps> = ({
                             </div>
                             <div>
                               <button
-                                className="w-fit border border-[#60B5A0] bg-purple-primary px-[8px] py-[5px] text-center font-general-sans text-[16px] font-medium text-white
+                                className="w-fit border border-[#60B5A0] rounded-lg bg-purple-primary px-[8px] py-[5px] text-center font-general-sans text-[16px] font-medium text-black
                                 "
                                 type="button"
                                 onClick={() => onAddNewToken(token)}
