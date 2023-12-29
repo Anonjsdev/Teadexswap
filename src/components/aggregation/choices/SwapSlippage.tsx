@@ -72,7 +72,7 @@ const SwapSlippage = () => {
           />
         </div>
 
-        <div className={`text w-full cursor-pointer rounded-lg  bg-gray-custom-200 px-[19px] py-[10px] text-center  ${
+        <div className={`text w-full cursor-pointer rounded-lg  bg-gray-custom-200 px-[16px] py-[10px] text-center  ${
             isCustomSelected ? "border-[#e1e1e1] border" : ""
           }`}
           onClick={() => {
