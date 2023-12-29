@@ -17,7 +17,7 @@ const PredefinedOption: FC<PredefinedOptionProps> = ({
   return (
     <div>
       <div
-        className={`rounded-lg p-1 text  bg-gray-custom-200 px-[10px] py-[10px] text-center shadow ${
+        className={`rounded-lg p-1 text  bg-gray-custom-200 px-[19px] py-[10px] text-center shadow ${
           isSelected ? "border-[#171717] border" : ""
         }`}
         onClick={onClick}
@@ -47,7 +47,7 @@ const SwapSlippage = () => {
     <section className="space-y-[12px]">
       <InputLabel label="Swap Slippage" fontClass="" />
 
-      <div className="grid grid-cols-4 gap-[10px] justify-between  font-dm-mono text-[13px] md:text-[16px]">
+      <div className="grid grid-cols-4 gap-[15px] justify-between  font-dm-mono text-[13px] md:text-[16px]">
         <div className="w-full cursor-pointer ">
           <PredefinedOption
             percentage={0.1}
@@ -73,7 +73,7 @@ const SwapSlippage = () => {
         </div>
 
         <div
-          className={`text w-full cursor-pointer rounded-lg  bg-gray-custom-200 px-[10px] py-[10px] text-center  ${
+          className={`text w-full cursor-pointer rounded-lg  bg-gray-custom-200 px-[25px] py-[10px] text-center  ${
             isCustomSelected ? "border-[#171717] border" : ""
           }`}
           onClick={() => {
