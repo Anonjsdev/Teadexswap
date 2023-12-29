@@ -47,7 +47,7 @@ const SwapSlippage = () => {
     <section className="space-y-[12px]">
       <InputLabel label="Swap Slippage" fontClass="" />
 
-      <div className="grid grid-cols-4 gap-[15px] justify-between  font-dm-mono text-[13px] md:text-[16px]">
+      <div className="grid grid-cols-4 gap-[12px] justify-between  font-dm-mono text-[13px] md:text-[16px]">
         <div className="w-full cursor-pointer ">
           <PredefinedOption
             percentage={0.1}
@@ -73,7 +73,7 @@ const SwapSlippage = () => {
         </div>
 
         <div
-          className={`text w-full cursor-pointer rounded-lg  bg-gray-custom-200 px-[25px] py-[10px] text-center  ${
+          className={`text w-full cursor-pointer rounded-lg  bg-gray-custom-200 px-[16px] py-[12px] text-center  ${
             isCustomSelected ? "border-[#171717] border" : ""
           }`}
           onClick={() => {
