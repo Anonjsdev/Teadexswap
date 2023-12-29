@@ -22,7 +22,7 @@ const PredefinedOption: FC<PredefinedOptionProps> = ({
         }`}
         onClick={onClick}
       >
-        {percentage} %
+        {percentage} 
       </div>
     </div>
   );
