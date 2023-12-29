@@ -17,7 +17,7 @@ const PredefinedOption: FC<PredefinedOptionProps> = ({
   return (
     <div>
       <div
-        className={`rounded-lg p-1 text  bg-gray-custom-200 px-[19px] py-[10px] text-center shadow ${
+        className={`rounded-lg p-1 text  bg-gray-custom-200 px-[19px] py-[10px] text-center  ${
           isSelected ? "border-[#e1e1e1] border" : ""
         }`}
         onClick={onClick}
