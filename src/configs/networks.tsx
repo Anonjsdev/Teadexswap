@@ -20,7 +20,8 @@ export interface INetworkConfig {
 export const SUPPORTED_NETWORKS = [
   bsc,
   mainnet,
- 
+  arbitrum,
+  polygon,
 ];
 
 export const NetworksConfig: INetworkConfig[] = SUPPORTED_NETWORKS.map(
