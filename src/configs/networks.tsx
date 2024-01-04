@@ -22,6 +22,11 @@ export const SUPPORTED_NETWORKS = [
   mainnet,
   arbitrum,
   polygon,
+  avalanche,
+  fantom,
+  optimism,
+
+
 ];
 
 export const NetworksConfig: INetworkConfig[] = SUPPORTED_NETWORKS.map(
