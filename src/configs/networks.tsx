@@ -25,7 +25,9 @@ export const SUPPORTED_NETWORKS = [
   avalanche,
   fantom,
   optimism,
-
+  celo,
+  gnosis,
+  zkSync
 
 ];
 
